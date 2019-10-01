@@ -1,8 +1,14 @@
 # Eliza vs Niall
 
-[![Build Status](https://travis-ci.org/xyproto/eliza_vs_niall.svg?branch=master)](https://travis-ci.org/xyproto/eliza_vs_niall) [![GoDoc](https://godoc.org/github.com/xyproto/eliza_vs_niall?status.svg)](http://godoc.org/github.com/xyproto/eliza_vs_niall) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xyproto/eliza_vs_niall/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/eliza_vs_niall)](https://goreportcard.com/report/github.com/xyproto/eliza_vs_niall)
+[![Build Status](https://travis-ci.org/xyproto/eliza_vs_niall.svg?branch=master)](https://travis-ci.org/xyproto/eliza_vs_niall) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xyproto/eliza_vs_niall/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/eliza_vs_niall)](https://goreportcard.com/report/github.com/xyproto/eliza_vs_niall)
 
-Two chatbots face each other. There can only be one. Eliza meets Niall.
+Let the Eliza chatbot talk with the Niall chatbot, where Niall is trained by the given data on `stdin`, and watch the ensuing conversation.
+
+## Usage
+
+Train Niall with the contents of `input.txt` and output 10 lines of conversation:
+
+    eliza_vs_niall 10 < input.txt
 
 ## Installation
 
@@ -10,41 +16,35 @@ Development version:
 
     go get -u github.com/xyproto/eliza_vs_niall
 
-## Usage
-
-For letting each bot say 10 lines of text, and training Niall with the text in input.txt:
-
-    eliza_vs_niall 10 < input.txt
-
 ## Example output
 
-With no training text for Niall, except the output from Eliza:
+Using the GPL 3 license as input data:
 
 ```
 Eliza: How do you do. Please tell me your problem.
-Niall: Please tell me your problem.
+Niall: User product.
 Eliza: How do you feel when you say that?
-Niall: How do.
-Eliza: What is it you're really asking?
-Niall: Please tell me your problem.
-Eliza: I see.
-Niall: How do you do.
-Eliza: Perhaps you can answer your own question.
-Niall: How do.
-Eliza: How do you suppose?
-Niall: How do you do.
-Eliza: Perhaps you can answer your own question.
-Niall: How do you do you do you do.
-Eliza: What is it you're really asking?
-Niall: Please tell me your problem.
+Niall: Then your rights from the extent that there is transferred to operate with this license.
+Eliza: How do you feel when you say that?
+Niall: You need not include claims.
+Eliza: Why do you care whether I need not include claims?
+Niall: The same work as a covered work.
+Eliza: Let's change focus a bit... Tell me about your family.
+Niall: Or.
+Eliza: How does that make you feel?
+Niall: And prominently visible.
+Eliza: Let's change focus a bit... Tell me about your family.
+Niall: Subject to find the contributors essential patent license.
+Eliza: Very interesting.
+Niall: Selling its corresponding source code saying where the parties with the terms and.
 Eliza: Please tell me more.
-Niall: How do.
-Eliza: How do you suppose?
-Niall: How do you do.
-Eliza: What is it you're really asking?
+Niall: Of it includes a prominent item in connection with.
+Eliza: Very interesting.
+Niall: However.
+Eliza: How does that make you feel?
 ```
 
-With Niall being given a poem about relationships as the initial input:
+Using a poem about relationships as input data:
 
 ```
 Eliza: How do you do. Please tell me your problem.
@@ -72,6 +72,6 @@ Eliza: Why do you care whether I your muse from divinity?
 
 ## General information
 
-* Version: 0.1
+* Version: 0.0.1
 * License: MIT
 * Alexander F. Rødseth <xyproto@archlinux.org>
