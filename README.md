@@ -1,20 +1,22 @@
 # Eliza vs Niall
 
-[![Build Status](https://travis-ci.org/xyproto/eliza_vs_niall.svg?branch=master)](https://travis-ci.org/xyproto/eliza_vs_niall) [![GoDoc](https://godoc.org/github.com/xyproto/eliza_vs_niall?status.svg)](http://godoc.org/github.com/xyproto/eliza_vs_niall) [![License](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/xyproto/eliza_vs_niall/master/LICENSE) [![Report Card](https://img.shields.io/badge/go_report-A+-brightgreen.svg?style=flat)](http://goreportcard.com/report/xyproto/eliza_vs_niall)
+[![Build Status](https://travis-ci.org/xyproto/eliza_vs_niall.svg?branch=master)](https://travis-ci.org/xyproto/eliza_vs_niall) [![GoDoc](https://godoc.org/github.com/xyproto/eliza_vs_niall?status.svg)](http://godoc.org/github.com/xyproto/eliza_vs_niall) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xyproto/eliza_vs_niall/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/eliza_vs_niall)](https://goreportcard.com/report/github.com/xyproto/eliza_vs_niall)
 
 Two chatbots face each other. There can only be one. Eliza meets Niall.
 
-# Installation
+## Installation
 
-    go get github.com/xyproto/eliza_vs_niall
+Development version:
 
-# Usage
+    go get -u github.com/xyproto/eliza_vs_niall
+
+## Usage
 
 For letting each bot say 10 lines of text, and training Niall with the text in input.txt:
 
     eliza_vs_niall 10 < input.txt
 
-# Example output
+## Example output
 
 With no training text for Niall, except the output from Eliza:
 
@@ -68,9 +70,8 @@ Niall: Only ever with you my muse from divinity.
 Eliza: Why do you care whether I your muse from divinity?
 ```
 
-General information
--------------------
+## General information
 
 * Version: 0.1
 * License: MIT
-* Alexander F Rødseth <xyproto@archlinux.org>
+* Alexander F. Rødseth <xyproto@archlinux.org>
