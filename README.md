@@ -12,6 +12,8 @@ Train Niall with the contents of `input.txt` and output 10 lines of conversation
 
 ## Installation
 
+Requires Go 1.5 or later.
+
 Development version:
 
     go get -u github.com/xyproto/eliza_vs_niall
