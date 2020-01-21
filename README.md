@@ -1,6 +1,6 @@
 # Eliza vs Niall
 
-[![Build Status](https://travis-ci.org/xyproto/strife.svg?branch=master)](https://travis-ci.org/xyproto/strife) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xyproto/strife/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/strife)](https://goreportcard.com/report/github.com/xyproto/strife)
+[![Build Status](https://travis-ci.com/xyproto/strife.svg?branch=master)](https://travis-ci.com/xyproto/strife) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xyproto/strife/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/strife)](https://goreportcard.com/report/github.com/xyproto/strife)
 
 Niall, a pretty limited, but receptive chatbot, seeks therapy from Eliza, the old and traditional theraputic chatbot.
 
