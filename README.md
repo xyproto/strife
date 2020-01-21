@@ -2,7 +2,13 @@
 
 [![Build Status](https://travis-ci.org/xyproto/strife.svg?branch=master)](https://travis-ci.org/xyproto/strife) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xyproto/strife/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/strife)](https://goreportcard.com/report/github.com/xyproto/strife)
 
-Let the Eliza chatbot talk with the Niall chatbot, where Niall is trained by the given data on `stdin`, and watch the ensuing conversation.
+Niall, a pretty limited, but receptive chatbot, seeks therapy from Eliza, the old and traditional theraputic chatbot.
+
+Weirdness ensues.
+
+There is no purpose to this apart from seeing what happens.
+
+Requires Go 1.11 or later.
 
 ## Usage
 
@@ -15,8 +21,6 @@ Or supply the desired number of output lines:
     ./strife 10
 
 ## Installation
-
-Requires Go 1.11 or later.
 
 Development version:
 
