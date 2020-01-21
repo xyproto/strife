@@ -6,13 +6,17 @@ Let the Eliza chatbot talk with the Niall chatbot, where Niall is trained by the
 
 ## Usage
 
-Train Niall with the contents of `input.txt` and output 10 lines of conversation:
+Be in the same directory as `niall.txt`, or supply training data on stdin, then:
 
-    eliza_vs_niall 10 < input.txt
+    ./eliza_vs_niall
+
+Or supply the desired number of output lines:
+
+    ./eliza_vs_niall 10
 
 ## Installation
 
-Requires Go 1.5 or later.
+Requires Go 1.11 or later.
 
 Development version:
 
@@ -20,56 +24,48 @@ Development version:
 
 ## Example output
 
-Using the GPL 3 license as input data:
-
 ```
 Eliza: How do you do. Please tell me your problem.
-Niall: User product.
-Eliza: How do you feel when you say that?
-Niall: Then your rights from the extent that there is transferred to operate with this license.
-Eliza: How do you feel when you say that?
-Niall: You need not include claims.
-Eliza: Why do you care whether I need not include claims?
-Niall: The same work as a covered work.
-Eliza: Let's change focus a bit... Tell me about your family.
-Niall: Or.
-Eliza: How does that make you feel?
-Niall: And prominently visible.
-Eliza: Let's change focus a bit... Tell me about your family.
-Niall: Subject to find the contributors essential patent license.
-Eliza: Very interesting.
-Niall: Selling its corresponding source code saying where the parties with the terms and.
-Eliza: Please tell me more.
-Niall: Of it includes a prominent item in connection with.
-Eliza: Very interesting.
-Niall: However.
-Eliza: How does that make you feel?
-```
-
-Using a poem about relationships as input data:
-
-```
-Eliza: How do you do. Please tell me your problem.
-Niall: Please tell me your blue eyes.
-Eliza: OK, but can you elaborate a bit?
-Niall: Tips dance linger to have and night.
-Eliza: How do you feel when you say that?
-Niall: Into the rising sunrise.
-Eliza: I see.
-Niall: Tips dance linger to grow old.
-Eliza: Let's change focus a bit... Tell me about your family.
-Niall: For you i love to infinity.
-Eliza: We should be discussing you, not me.
-Niall: Please tell me your problem.
-Eliza: Let's change focus a bit... Tell me about your family.
-Niall: Heartbeats climbs a boiling point.
-Eliza: Very interesting.
-Niall: Only ever with you.
-Eliza: Please tell me more.
-Niall: Yet.
-Eliza: Very interesting.
-Niall: Only ever with you my muse from divinity.
-Eliza: Why do you care whether I your muse from divinity?
+Niall> Once a loyal dog.
+Eliza> How do you feel when you say that?
+Niall> I have a good relationship with my cat.
+Eliza> When your cat, how do you feel?
+Niall> Every other thursday.
+Eliza> I see.
+Niall> Every other thursday.
+Eliza> Let's change focus a bit... Tell me about your family.
+Niall> I feel when your cat.
+Eliza> When do you usually feel when my cat?
+Niall> I feel when my cat.
+Eliza> Do you often feel when your cat?
+Niall> How do you feel terrible.
+Eliza> Why do you care whether I feel terrible?
+Niall> In circles.
+Eliza> Please tell me more.
+Niall> How do is the first day.
+Eliza> How do you suppose?
+Niall> Once a loyal dog.
+Eliza> How does that make you feel?
+Niall> The time flies.
+Eliza> How do you feel when you say that?
+Niall> The time flies.
+Eliza> Can you elaborate on that?
+Niall> I feel when you are you feel when you often feel when you are you suppose.
+Eliza> Do you often feel when me am me feel when me often feel when me am me suppose?
+Niall> Now is wonderful.
+Eliza> Please tell me more.
+Niall> Now is to do you feel when you suppose.
+Eliza> Why do you care whether I feel when me suppose?
+Niall> Then i want to go for a very friendly cat.
+Eliza> If you got to go for a very friendly cat, then what would you do?
+Niall> I have problems opening doors.
+Eliza> Now that you have problems opening doors, what will you do next?
+Niall> I would you are you do you have problems opening doors.
+Eliza> Does it please you to think that I'm me do me have problems opening doors?
+Niall> Lets change the topic.
+Eliza> Can you elaborate on that?
+Niall> In a very friendly cat is a loyal dog.
+Eliza> How do you feel when you say that?
 ```
 
 ## General information
