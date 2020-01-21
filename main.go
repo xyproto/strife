@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/kennysong/goeliza"
+	"github.com/xyproto/eliza"
 	"github.com/xyproto/niall"
 	"os"
 	"strconv"
@@ -23,7 +23,7 @@ func main() {
 		fmt.Fprintln(os.Stderr, "reading standard input:", err)
 	}
 
-	elizaSaysHi := goeliza.ElizaHi()
+	elizaSaysHi := eliza.ElizaHi()
 	fmt.Println(elizaName + ": " + elizaSaysHi)
 	niall.Learn(elizaSaysHi)
 
@@ -39,6 +39,6 @@ func main() {
 	for x := 0; x < numlines; x++ {
 		statement := niall.Talk()
 		fmt.Printf("%s: %s\n", niallName, statement)
-		fmt.Printf("%s: %s\n", elizaName, goeliza.ReplyTo(statement))
+		fmt.Printf("%s: %s\n", elizaName, eliza.ReplyTo(statement))
 	}
 }

@@ -1,4 +1,0 @@
-# github.com/kennysong/goeliza v0.0.0-20160420092726-bdfccfe37f9c
-github.com/kennysong/goeliza
-# github.com/xyproto/niall v0.0.0-20191001104511-81c66ebdaf62
-github.com/xyproto/niall
