@@ -1,4 +1,4 @@
-module github.com/xyproto/eliza_vs_niall
+module github.com/xyproto/strife
 
 go 1.11
 

@@ -1,6 +1,6 @@
 # Eliza vs Niall
 
-[![Build Status](https://travis-ci.org/xyproto/eliza_vs_niall.svg?branch=master)](https://travis-ci.org/xyproto/eliza_vs_niall) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xyproto/eliza_vs_niall/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/eliza_vs_niall)](https://goreportcard.com/report/github.com/xyproto/eliza_vs_niall)
+[![Build Status](https://travis-ci.org/xyproto/strife.svg?branch=master)](https://travis-ci.org/xyproto/strife) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/xyproto/strife/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/xyproto/strife)](https://goreportcard.com/report/github.com/xyproto/strife)
 
 Let the Eliza chatbot talk with the Niall chatbot, where Niall is trained by the given data on `stdin`, and watch the ensuing conversation.
 
@@ -8,11 +8,11 @@ Let the Eliza chatbot talk with the Niall chatbot, where Niall is trained by the
 
 Be in the same directory as `niall.txt`, or supply training data on stdin, then:
 
-    ./eliza_vs_niall
+    ./strife
 
 Or supply the desired number of output lines:
 
-    ./eliza_vs_niall 10
+    ./strife 10
 
 ## Installation
 
@@ -20,7 +20,7 @@ Requires Go 1.11 or later.
 
 Development version:
 
-    go get -u github.com/xyproto/eliza_vs_niall
+    go get -u github.com/xyproto/strife
 
 ## Example output
 
